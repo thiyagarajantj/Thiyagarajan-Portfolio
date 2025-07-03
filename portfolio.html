@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Offside&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Offside&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js" > </script>
+            <script type="text/javascript">
+              (function() {
+              emailjs.init("n_vebcm0n7Lb1fXfV");
+              })(); 
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Offside&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <p class="navname">THIYAGU</p>
+            <ul>
+                <li><a id="gotomain">Home</a></li>
+                <li><a id="gotoabout">About me</a></li>
+                <li><a id="gotobox2">Skill</a></li>
+                <li><a id="gotocont">Contact</a></li>
+            </ul>
+        </div>
+        <div class="mainbody hidden">
+            <div class="mainbody1">
+                <p class="para1">Hii , I am</p>
+                <p class="para2"> <span class="name">THIYAGARAJAN</span></p>
+                <p class="para3">Frontend Develpor</p>
+                <button class="btn"><a href="./asset/Thiyagarajan R Resume.pdf" target="_blank" class="res">Resume</a></button>
+                <!-- <p><a href="https://github.com/thiyagarajantj" target="_blank"><i class="fa-brands fa-github ic" ></i></a><a href=""><i class="fa-brands fa-linkedin ic"></i></a></p> -->
+            </div>
+            <div class="mainbody2">
+                <img src="./asset/profile3.jpg" class="pro">
+            </div>
+        </div>
+        <div class="box1 hidden">
+           <div class="box1cont">
+             <p class="box1p1">About Me</p>
+            <p class="box1p2">
+                I’m Thiyagarajan R, a BCA graduate with a strong interest in web development. I have hands-on knowledge in HTML, CSS, and basic JavaScript. I’m a quick learner, passionate about creating user-friendly websites, and always eager to explore new technologies. I’ve also completed certified courses in frontend development and Python
+            </p>
+           </div>
+           <div class="box1card">
+            <div class="box1card1">
+                <p><i class="fa-solid fa-user-graduate ie"></i> HSC TN-Board</p>
+                <p>Banadhurai Higher Secondary School Kumbakonam</p>
+                <p>60 Percentage</p>
+            </div>
+            <div class="box1card2">
+                <p><i class="fa-solid fa-user-graduate ie"></i> BCA</p>
+                <p>Mass College of Arts and Science Kumbakonam</p>
+                <p>72 Percentage</p>
+            </div>
+           </div>
+            
+        </div>
+        <div class="box2 hidden">
+            <p class="box2-tittle">Skill</p>
+            <div class="skill">
+                <div class="fl">
+                    <div class="fl1">
+                        <p class="sl">Frontend and also with</p>
+                    </div>
+                    <div class="fl2">
+                        <div class="div">
+                        <img src="./asset/html logo.jpg" alt="" class="llogo">
+                        <p class="lp">HTML</p>
+                    </div>
+                    <div class="div">
+                        <img src="./asset/css logo.jpg" alt="" class="llogo">
+                        <p class="lp">CSS</p>
+                    </div>
+                    <div class="div">
+                        <img src="./asset/js logo.jpg" alt="" class="llogo">
+                   +     <p class="lp">Javascript</p>
+                    </div>
+                    <div class="div">
+                        <img src="./asset/python logo.jpg" alt="" class="llogo">
+                        <p class="lp">Python</p>
+                    </div>
+                    <div class="div">
+                        <img src="./asset/bootstrap logo.jpg" alt="" class="llogo">
+                        <p class="lp">Boostrap  </p>
+                    </div>
+  
+                    <div class="div">
+                        <img src="./asset/react logo.jpg" alt="" class="llogo">
+                        <p class="lp">Reactjs</p>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="tl">
+                    <div class="tl1">
+                        <p class="sl">Tools</p>
+                    </div>
+                    <div  class="tl2">
+                        <img src="./asset/vs code.jpg" alt="" class="llogo">
+                        <img src="./asset/github logo.jpg" alt="" class="llogo">
+                        <img src="./asset/pycham logo.jpg" alt="" class="llogo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box3 hidden">
+            <p class="box3-tittle">Get In Touch</p>
+         <div class="box3card">
+               <div >
+                <form action="" onsubmit=sendemail(event) class="box3card1">
+                <input type="text" placeholder="Name" class="input" id="name" required>
+                <input type="email" placeholder="Email" class="input" id="email" required>
+                <input type="text" placeholder="Subject" class="input" id="subject" required>
+                <textarea name="" id="textarea" placeholder="Message" class="inputall" ></textarea required>
+                <button class="btn2">Send Message</button>
+                </form>
+            </div>
+            <div class="box3card2">
+                <p><i class="fa-solid fa-phone ic2"></i> +91 6383921471</p>
+                <p><i class="fa-solid fa-location-dot ic2"></i> Koranattu Karuppur, Kumbakonam</p>
+                <p><i class="fa-solid fa-envelope ic2"></i> thiyagu25425@gmail.com</p>
+                 
+            </div>
+         </div>
+        </div>
+       <div class="fotter hidden">
+        <p>
+            <a href="https://github.com/thiyagarajantj" target="_blank">
+            <i class="fa-brands fa-github ic" ></i></a>
+            <a href=""><i class="fa-brands fa-linkedin ic"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram ic"></i></a>
+            <a href="mailto:thiyagu25425@gmail.com"><i class="fa-solid fa-envelope ic"></i></a>
+            <a href="tel:+91 6383921471"><i class="fa-brands fa-whatsapp ic"></i></a>
+        </p>
+         <p class="fcont">TJS 2025</p>
+    </div>
+
+
+    <script src="./portfolio.js"></script>
+</body>
+</html>

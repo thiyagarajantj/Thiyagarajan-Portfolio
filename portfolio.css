@@ -1,0 +1,369 @@
+
+
+
+
+
+*{
+   margin: 0px;
+    padding: 0px;
+    /* font-family: "Offside", sans-serif; */
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(25px);
+  transition: all 0.8s ease-in-out;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ----------- Fade nav with delay ----------- */
+.nav {
+  opacity: 0;
+  transition: opacity 0.1s ease-in;
+}
+
+.nav.show {
+  opacity: 1;
+}
+
+.nav{
+    padding: 20px;
+    z-index: 1;
+    box-sizing: border-box;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    background-color:white;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.289);
+}
+.navname{
+    letter-spacing: 2px;
+    margin-left: 10vw;
+    box-sizing: border-box;
+}
+
+ul{
+    display: flex;
+    justify-content: end;
+}
+li{
+    list-style: none;
+    margin-right: 10vw;
+    color: rgb(40, 45, 57);
+    font-size: small;
+}
+a{
+    text-decoration: none;
+    color: rgb(40, 45, 57);
+}
+a:hover{
+    cursor: pointer;
+}
+.mainbody{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10vh 12vw 0vh 12vw;
+    height: 90vh;
+    /* background-color: rgb(228, 230, 229); */
+}
+.pro{
+    box-shadow:  1px 1px 20px rgba(0, 0, 0, 0.151);
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.para1{
+    font-size: 20px;
+    margin-bottom: 20px;   
+}
+
+.para2{
+     font-size: 40px; 
+     letter-spacing:5px;
+     padding-bottom: 10px;
+
+}
+.para3{
+    letter-spacing: 3px;
+    padding-top: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+ .ic{
+    font-size:x-large;
+    margin-right: 30px;
+    color: rgb(33, 34, 39);
+    margin-top: 15px;
+} 
+.ic2{
+    font-size:x-large;
+    color: rgb(33, 34, 39);
+    margin-right: 5px;
+
+}
+.btn{
+    padding: 8px 15px;
+    border: none;
+    font-size: medium;
+    color: white;
+    border-radius: 15px;
+    background-color: rgb(33, 34, 39);
+}
+.res{
+    text-decoration: none;
+    color: white;
+}
+.box1{
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 10vh;
+    /* background-color: rgb(228, 230, 229); */
+}
+.box1p1{
+    margin:5vh 0vw 2vh 0vw;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+.box1p2{
+    padding:2vh  10vw 0vh 10vw;
+    text-align: center;
+
+    /* color:  rgba(74, 75, 74, 0.81); */
+}
+.box1card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    text-align: start;
+    margin-top: 5vh;
+}
+.box1card1,.box1card2{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.142);
+    padding: 3vh 3vw;
+    border-radius: 20px;
+    font-size: small;
+    /* color:  rgba(74, 75, 74, 0.81); */
+}
+.box1card1 p,.box1card2 p{
+    padding: 2px;
+}
+.box2-tittle,.box3-tittle{
+
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight: bolder;
+    /* color:  rgba(74, 75, 74, 0.58); */
+}
+.lp{
+    text-align: center;
+    font-size: xx-small;
+    /* padding: 3px; */
+    background-color: white;
+    /* opacity: 0; */
+}
+/* .div{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.28);
+    padding: 1px;
+} */
+.fl,.tl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fl1.tl1{
+    padding: 20px;
+}
+.fl2,.tl2{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    
+}
+.skill{
+    padding: 5vh 30vw;
+}
+.sl{
+    color:  rgba(74, 75, 74, 0.81);
+    font-size: small;
+}
+.s1,.s2,.s3,.s4{
+    display: flex;
+    align-items: center;
+}
+.llogo{
+    height: 100px;
+    width: 100px;
+}
+
+.box3{
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+    /* background-color: rgb(228, 230, 229); */
+}
+.box3card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:2vh  10vw 0vh 10vw;
+    box-sizing: border-box;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+}
+.box3card1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input{
+    width: 30vw;
+    padding: 6px;
+    outline: none;
+}
+.btn2{
+    /* background-color:rgba(74, 75, 74, 0.754); */
+    background-color: rgb(33, 34, 39);
+    border: none;
+    padding: 8px 10px;
+    color: white;
+}
+.inputall{
+    height: 13vh;
+    padding: 6px;
+}
+.box3card2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align:top;
+}
+.fotter{
+    /* background-color: rgba(74, 75, 74, 0.754); */
+    /* background-color: rgba(33, 34, 39, 0.889); */
+    box-shadow: 1PX 0PX 10PX rgba(0, 0, 0, 0.256);
+    color: white;
+    text-align: center;
+    padding: 6vh 0vw;
+    color: rgb(33, 34, 39);
+}
+.fcont{
+    margin-top: 20px;
+}
+ @media screen and (max-width:1005px) {
+
+    .mainbody{
+        padding-top: 15vh;
+    }
+
+}
+ @media screen and (max-width:850px){
+    .box1card{
+        gap: 10px;
+    }
+    .box1card1,.box1card2{
+        width: 30vw;
+    }
+
+ }
+@media screen and (max-width:600px) {
+ .pro{
+    height: 350px;
+    width: 350px;
+ }
+ .fl2,.tl2{
+    flex-wrap: wrap;
+ }
+ li{
+    display: none;
+ }
+ .navname{
+    font-size:12px;
+ }
+ 
+}
+@media screen and (max-width:565px){
+    .input{
+        width: 70vw;
+    }
+    .box3card2{
+        margin-top: 10vh;
+    }
+     .skill{
+        padding: 5vh 20vw;
+    }
+     .box1card1,.box1card2{
+        width: 70vw;
+        font-size: small;
+    }
+    .box3card2{
+        font-size: small;
+    }
+    .ic2,.ic{
+        font-size: medium;
+    }
+}
+@media screen and (max-width:420px) {
+    .para1{
+        font-size: smaller;
+    }
+    .para2{
+        font-size: 25px;
+    }
+    .pro{
+         height: 300px;
+        width: 300px;
+    }
+    .box1p2{
+        font-size:small;
+    }
+    .skill{
+        padding: 5vh 10vw;
+    }
+    .llogo{
+    height: 70px;
+    width: 70px;
+    }
+    .fl2,.tl2{
+        margin-top: 20px;
+        justify-content: space-evenly;
+    }
+    .mainbody{
+        padding: 13vh 8vw 0vh 8vw;
+        height: 85vh;
+    }
+    .box1p1{
+    margin:2vh 0vw 0vh 0vw;
+    font-weight: bold;
+}
+     .box3card2{
+        font-size: x-small;
+    }
+    .ic2{
+        font-size: medium;
+    }
+    .pro{
+    height: 260px;
+    width: 260px;
+ }
+} 
+
+
+
+
